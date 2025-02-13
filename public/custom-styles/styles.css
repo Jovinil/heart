@@ -1,0 +1,58 @@
+.bg-1
+{
+    height: 125px;
+}
+
+.bg-2
+{
+    height: 150px;
+}
+
+.bg-3
+{
+    height: 100px;
+}
+
+.heart
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.solo
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media only screen and (min-width: 992px) {
+    .bg-1
+    {
+        height: 150px;
+    }
+
+    .bg-2
+    {
+        height: 175px;
+    }
+
+    .bg-3
+    {
+        height: 125px;
+    }
+
+    #main-container
+    {
+        height: 80%;
+        width: 80%;
+    }
+
+    .heart
+    {
+        background-size: contain;
+    }
+
+}
